@@ -1,0 +1,8 @@
+services:
+  web:
+    image: "hmagroun/composetest:1.0"
+    ports:
+      - "8000:5000"
+  redis:
+    image: "redis:alpine"
+
