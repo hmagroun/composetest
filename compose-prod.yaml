@@ -1,6 +1,6 @@
 services:
   web:
-    image: "hmagroun/composetest:1.0"
+    image: "hmagroun/composetest:latest"
     ports:
       - "8000:5000"
   redis:
